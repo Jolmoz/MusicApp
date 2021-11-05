@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/nota"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Inscripcion Musical"
+        android:text="Suscripcion Musical"
         android:textSize="34sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <Space
         android:layout_width="match_parent"
-        android:layout_height="594dp"
-        app:srcCompat="@drawable/ic_music" />
+        android:layout_height="445dp" />
 
     <Button
         android:id="@+id/btn_insc"
         android:layout_width="match_parent"
         android:layout_height="93dp"
         android:text="Inscribirse" />
+
 </LinearLayout>
